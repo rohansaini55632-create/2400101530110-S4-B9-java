@@ -4,8 +4,11 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Demo from './component/Demo'
 import Demo2 from './component/Demo2'
+import Arrow from './component/Arrow'
+import State from './component/State'
 
 function App() {
+  
   
  function  callfun()
     {
@@ -22,14 +25,15 @@ function App() {
   return (
     <>
     <div>
-      {/* <h1>This is an example of component</h1> */}
-      <h1>Welcome in new project</h1>
+      {/*<h1>This is an example of component</h1>
+      <h1>Welcome in new project</h1>*/}
       {/* <Example></Example> */}
       {/* <Demo></Demo> */}
       {/* <Demo2></Demo2> */}
-      <button onClick={callfun}>OK</button>
+      {/*<button onClick={callfun}>OK</button>
       <button onClick={callfun1}>Apple</button>
-      <button onClick={callfun2}>Banana</button>
+      <button onClick={callfun2}>Banana</button>*/}
+      <State></State>
     </div>
     </>
   )
