@@ -6,6 +6,8 @@ import Demo from './component/Demo'
 import Demo2 from './component/Demo2'
 import Arrow from './component/Arrow'
 import State from './component/State'
+import Hook from './component/Hook'
+import Toggle from './component/Assignment1'
 
 function App() {
   
@@ -34,6 +36,8 @@ function App() {
       <button onClick={callfun1}>Apple</button>
       <button onClick={callfun2}>Banana</button>*/}
       <State></State>
+      <Hook></Hook>
+      <Toggle></Toggle>
     </div>
     </>
   )
